@@ -1,0 +1,6 @@
+.f-categories:last-child { display: flex; align-items: center; width: 30%; }
+.f-categories p {font-size: 1.2rem;font-weight: 700;color: #000;text-transform: uppercase;}
+.f-categories ul { margin-top: 1rem; list-style: none }
+.f-categories ul li { padding-bottom: 1rem }
+.f-categories ul li a { text-decoration: none; color: #4c4848; font-size: 1rem; font-weight: 600; transition: color .2s linear;text-transform: uppercase;}
+.f-categories ul li a:hover { color: #edb203 } 

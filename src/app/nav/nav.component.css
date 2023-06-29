@@ -1,0 +1,5 @@
+.PC-menu{background-color: #81a140; width: 100%; }
+.PC-menu li{width: 14.2%; font-size: 17px; text-align: center; padding: .6rem 0;}
+.PC-menu li a{color: #fff;font-size: 18px;}
+.cat-mega-menu,.oc-mega-menu{display: none;}
+.cat-menu:hover .cat-mega-menu{display: block;}

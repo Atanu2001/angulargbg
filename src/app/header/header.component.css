@@ -1,0 +1,28 @@
+/*header*/
+.index-heading {width: 100%}
+.head11 { background-color: #f3f3f3; padding: 0.3rem 1rem; }
+.wine-title{display: none;}
+.head11-left {display: flex;align-items: center;}
+.head11-left h3 { font-size: .85rem; font-weight: 500; color: #4c4848; margin-left: 0.5rem; }
+.head11-right a { color: #4c4848; font-weight: 500; transition: color .2s linear; font-size: .85rem;text-transform: uppercase; }
+.head1 { background-color: #f3f3f3; height: 0; padding-top: 10px !important; padding-bottom: 30px !important; flex-wrap: nowrap }
+.head1,.head2 { padding: .5rem 1rem }
+.head1-left h3 { font-size: 14px; font-weight: lighter; color: #4c4848; margin-left: .5rem }
+.head1-right a { color: #4c4848; font-weight: 500; transition: color .2s linear; font-size: 14px }
+.head1-right a:hover, .head2-options:hover.head2-options p { color: #edb203 }
+.head2 { margin: 1rem 0; position: relative; height: 0; padding-bottom: 7%;align-items: center; }
+.search-bar2 { width: 30%; /*margin: auto 0;*/ position: relative; }
+.search-bar2-main {display: flex;justify-content: center;}
+.search-bar2 input { width: 100%; font-family: montserrat,sans-serif; font-size: 15px; border: 1px solid #81a140; border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding: 0.5rem 0 0.5rem 1rem; outline: none;}
+.search-bar2 .search-btn { width: 13%; cursor: pointer; border: 1px solid #81a140; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: #81a140; color: #fff; }
+.logo { width: 24%;  }
+.logo-img { height: 0; padding-bottom: 24%;cursor: pointer; }
+.logo img { width: 90%; height: auto; display: block; margin: 0 auto }
+.logo p { font-weight: 600; font-size: 16px; text-align: center }
+.head2-right { width: 300px; /*margin: auto 20px auto 0 */    margin-right: 30px;}
+.head2-options { margin-right: 8px }
+.head2-options i { color: #000; font-size: 1.4rem }
+.head2-options .fa-truck { margin-left: 3rem }
+.head2-options .fa-dollar-sign, .head2-options .fa-jpy { margin-left: 2.5rem }
+.head2-options p { color: #81a140; font-size: 1.4rem; font-weight: 600; transition: color .1s linear }
+#searchAlert{    color: red; font-size: 13px; font-weight: 600;}
