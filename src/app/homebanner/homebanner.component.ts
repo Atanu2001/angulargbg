@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./homebanner.component.css']
 })
 export class HomebannerComponent {
-
+ 
 }
