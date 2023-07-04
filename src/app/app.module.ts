@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { HomebannerComponent } from './homebanner/homebanner.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { HomebannerComponent } from './homebanner/homebanner.component';
     FooterComponent,
     NavComponent,
     HomebannerComponent,
+    LoginComponent,
+    HomeComponent,
     // FontawesomeDemoComponent
   ],
   imports: [
