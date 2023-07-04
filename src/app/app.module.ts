@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { HomebannerComponent } from './homebanner/homebanner.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HomebannerComponent } from './homebanner/homebanner.component';
     FooterComponent,
     NavComponent,
     HomebannerComponent,
+    LoginComponent,
     // FontawesomeDemoComponent
   ],
   imports: [
