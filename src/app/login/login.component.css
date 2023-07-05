@@ -5,10 +5,9 @@ ul.breadcrumb li a { color: #81a140; text-decoration: none; }
 ul.breadcrumb li a:hover { color: #01447e; }
 
 .log-in-body { max-width: 500px; margin: 2rem auto; padding: 2rem; border-radius: 5px; box-shadow: -1px 1px 12px -2px #7c7c7c; background-color: #fff; }
-.log-in-body h1 { color: #dc446c; text-align: center; }
 .log-in-form { margin-top: 0; flex-direction: column; }
 .log-in-body { max-width: 500px; margin: 2rem auto; padding: 2rem; border-radius: 5px; box-shadow: -1px 1px 12px -2px #7c7c7c; background-color: #fff; }
-.log-in-body h1 { color: #dc446c; text-align: center; }
+.log-in-body h1 { color: #81a140; text-align: center; }
 .log-in-form { margin-top: 0; flex-direction: column; }
 
 .log-in-btn button { width: 180px; display: block; padding: 0.5rem 0; font-size: 1.2rem; margin: 1rem auto; border-radius: 50px; border: 2px solid #81a140!important; background-color:#81a140!important; color: #fff; }
