@@ -1,0 +1,17 @@
+ul.breadcrumb { padding: 10px 16px; list-style: none; margin-top: 1.5%; margin-left: 1%; }
+ul.breadcrumb li { display: inline; font-size: 18px; }
+ul.breadcrumb li+li:before { padding: 8px; color: black; content:">\00a0" }
+ul.breadcrumb li a { color: #81a140; text-decoration: none; }
+ul.breadcrumb li a:hover { color: #01447e; }
+
+.sign-up-body { max-width: 1000px; margin: 2rem auto; padding: 2rem; border-radius: 5px; box-shadow: -1px 1px 12px -2px #7c7c7c; background-color: white; }
+.sign-up-body h1, .log-in-body h1 { color: #81a140!important; text-align: center; }
+.sign-up-form { justify-content: space-evenly; margin-top: 2rem; }
+.sign-up-btn button { width: 250px; display: block; padding: 0.5rem 0; font-size: 1.2rem; margin: 1rem auto; border-radius: 50px; border: 2px solid#81a140!important; background-color: #81a140!important; color: white; }
+.sign-up-social { margin-top: 2rem; text-align: center; }
+.sign-up-social p {padding: 1rem 0;}
+
+.form-group { width: 45%; display: flex; flex-direction: column; padding: 0.5rem 0; margin-bottom: 0.5rem; }
+.form-group label { color: #000000; font-weight: 400; margin: 0.5rem 0; }
+.form-group input ,.form-group textarea{ padding: 0.8rem 0 0.8rem 0.7rem; font-family: 'Montserrat', sans-serif; border-radius: 5px; border: 1px solid darkgray; }
+.form-group select { font-size: 1rem; border-radius: 5px; font-family: 'Montserrat', sans-serif; padding: 0.6rem 0.5rem; color: black; }

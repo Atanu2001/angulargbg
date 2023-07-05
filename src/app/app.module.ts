@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomebannerComponent } from './homebanner/homebanner.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HomeComponent } from './home/home.component';
     HomebannerComponent,
     LoginComponent,
     HomeComponent,
+    SignupComponent,
     // FontawesomeDemoComponent
   ],
   imports: [
