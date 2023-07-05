@@ -1,6 +1,54 @@
 
 <app-header></app-header>
 <app-nav></app-nav>
-<p>login works!</p>
+<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li>Member Login</li>
+</ul>
+<section class="log-in">
+    <div class="log-in-body">
+    <h1>Member Log In</h1>
+    <form method="POST" action="" accept-charset="UTF-8" id="Userlogin" novalidate="">
+        <input name="_token" type="hidden" >
+    <div class="log-in-form flex">
+    <div class="l-form-group">
+    <label for="email">Email</label>
+    <div class="mno flex">
+    <div class="l-prefix">
+    <i><fa-icon [icon]="usericon"></fa-icon></i>
+    </div>
+    <input required="" placeholder="Email *" class="form-control log-inputtextfield login_email valid" id="email" name="email" type="text">
+    </div>
+    </div>
+    <div class="l-form-group">
+    <label for="password">Password</label>
+    <div class="mno flex">
+    <div class="l-prefix">
+        <i><fa-icon [icon]="userpass"></fa-icon></i>
+    </div>
+    <input required="" placeholder="Password *" class="form-control pass log-inputtextfield login_password valid" id="password" name="password" type="password" value="">
+    </div>
+    </div>
+    </div>
+    <div class="forgot-pass"><a href="javascript:void(0)" id="forgotpassword">Forgot Password ?</a></div>
+    <div class="log-in-btn"><button>Log In</button></div>
+    <div class="log-in-social">
+    <hr>
+    <p>Or Login Using</p>
+    <div class="fb-n-gle flex my-social">
+    <a href="javascript:;" onclick="if (!window.__cfRLUnblockHandlers) return false; login_with_facebook();">
+    <img src="https://www.nipponflorist.jp/images/site/button-fb.png" alt="">
+    </a>
+    <a href="javascript:;" onclick="if (!window.__cfRLUnblockHandlers) return false; login_with_google();">
+    <img src="https://www.nipponflorist.jp/images/site/button-google.png" alt="">
+    </a>
+    </div>
+    <p>New User, Click to <a href="#">Sign Up</a></p>
+    </div>
+    </form>
+    </div>
+    </section>
+
+
 <app-footer></app-footer>
 

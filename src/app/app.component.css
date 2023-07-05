@@ -10,6 +10,12 @@ a {text-decoration: none}
 hr{ color: #cbc9c9; }
 button, input, optgroup, select, textarea { font-family: inherit; line-height: 1.15; }
 
+ul.breadcrumb { padding: 10px 16px; list-style: none; margin-top: 1.5%; margin-left: 1%; }
+ul.breadcrumb li { display: inline; font-size: 18px; }
+ul.breadcrumb li+li:before { padding: 8px; color: black; content:">\00a0" }
+ul.breadcrumb li a { color: #81a140; text-decoration: none; }
+ul.breadcrumb li a:hover { color: #01447e; }
+
 /*header*/
 .index-heading {width: 100%}
 .head11 { background-color: #f3f3f3; padding: 0.3rem 1rem; }
@@ -38,6 +44,7 @@ button, input, optgroup, select, textarea { font-family: inherit; line-height: 1
 .head2-options .fa-dollar-sign, .head2-options .fa-jpy { margin-left: 2.5rem }
 .head2-options p { color: #81a140; font-size: 1.4rem; font-weight: 600; transition: color .1s linear }
 #searchAlert{    color: red; font-size: 13px; font-weight: 600;}
+
 
 /*navbar*/
 .cat-menu span,.occation-btn span{ font-size: 15px;margin-left: 5px;}
